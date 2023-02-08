@@ -1,0 +1,9 @@
+name: my-profile 
+
+services:
+  server: 
+    build: 
+      context: . 
+    container_name: nginx-server
+    ports:
+      - 8082:80
